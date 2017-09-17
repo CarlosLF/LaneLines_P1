@@ -1,9 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -21,8 +17,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
+### 1. Pipeline description. 
 
 My pipeline consisted of 5 steps: 
 
@@ -31,6 +26,8 @@ My pipeline consisted of 5 steps:
 3) Then I Mask the image, 
 4) after that I compute the lines using the Hough transform, 
 5) Compute the left and right lines
+
+### Drawline modification
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function to estimate the left and right lines. First I separate the two sets using the slopes. For each set I estimate a line using liner regresion.
 
