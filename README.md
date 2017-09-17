@@ -48,14 +48,14 @@ A possible improvement would be to discard lines based on its slope.
 
 Another potential improvement could be to convert the image to HSV, mask the image based on the yellow and white color, and the apply the proposed pipline.
 
-#The algorithm is the following:
+The algorithm is the following:
 
-#1) Convert image to HSV
-#2) Mask the image using the yellow and white colors
-#3) Convert the image to grayscale
-#4) Apply Gaussian Blur to the image
-#5) Compute the image edges
-#6) Mask the image
-#7) Compute hough Lines
-#8) Fit left and right lines
+1) Convert image to HSV
+2) Mask the image using the yellow and white colors
+3) Convert the image to grayscale
+4) Apply Gaussian Blur to the image
+5) Compute the image edges
+6) Mask the image
+7) Compute hough Lines
+8) Fit left and right lines
 
