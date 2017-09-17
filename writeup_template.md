@@ -17,6 +17,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+[image2]: ./test_images/solidWhiteCurve.jpg "Grayscale"
+
 ---
 
 ### Reflection
